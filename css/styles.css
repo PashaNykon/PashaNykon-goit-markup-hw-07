@@ -403,7 +403,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 72px;
+  row-gap: 72px;
+  column-gap: 16px;
 }
 
 .customers-item {
@@ -536,13 +537,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 16px;
-}
-
-.footer-subscribe {
-  /* position: absolute;
-  bottom: 0;
-  right: 15px; */
-
 }
 
 .footer-email {

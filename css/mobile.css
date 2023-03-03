@@ -1,19 +1,9 @@
 @media screen and (min-width: 480px) {
-  .header-list,
-  .header-address-list {
-    display: none;
+  .container {
+    width: 428px;
   }
 
-  .logo {
-    margin-right: 0;
-  }
-
-  .hero {
-    padding-bottom: 108px;
-  }
-
-  .about-item {
+  .footer-email {
     width: 396px;
-    align-items: flex-start;
   }
 }

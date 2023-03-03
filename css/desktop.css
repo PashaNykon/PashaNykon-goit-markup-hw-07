@@ -1,4 +1,8 @@
 @media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -24,7 +28,16 @@
     font-style: normal;
   }
 
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-desk-1x.jpg);
+  }
+
   .about-list {
+    flex-wrap: unset;
     gap: 24px;
   }
 
@@ -49,5 +62,18 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     padding-bottom: 8px;
+  }
+
+  .products {
+    display: block;
+      }
+
+  .team-list {
+    display: flex;
+    flex-wrap: unset;
+    flex-direction: unset;
+    justify-content: center;
+    row-gap: 64px;
+    column-gap: 24px;
   }
 }
