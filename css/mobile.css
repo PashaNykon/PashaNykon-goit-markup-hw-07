@@ -1,9 +1,26 @@
 @media screen and (min-width: 480px) {
   .container {
+    max-width: 428px;
+  }
+
+  .mobile-menu-container {
     width: 428px;
+  }
+
+  .mobile-menu-tel {
+    font-size: 36px;
+  }
+
+  .mobile-menu-icons-list {
+    gap: 54px;
   }
 
   .footer-email {
     width: 396px;
+  }
+
+  .modal {
+    width: 392px;
+    min-height: 586px;
   }
 }
