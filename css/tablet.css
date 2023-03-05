@@ -109,7 +109,7 @@
     font-style: normal;
   }
 
-  .mobile-menu {
+  .mobile-menu-open {
     display: none;
   }
 
@@ -157,5 +157,24 @@
   .modal {
     width: 408px;
     min-height: 586px;
+  }
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio-filter-list {
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .portfolio-list {
+    row-gap: 72px;
+    justify-content: flex-start;
+  }
+
+  .portfolio-item {
+    width: calc((100% - 48) / 2);
   }
 }
