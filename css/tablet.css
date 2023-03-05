@@ -174,7 +174,3 @@
     justify-content: flex-start;
   }
 
-  .portfolio-item {
-    width: calc((100% - 48) / 2);
-  }
-}
