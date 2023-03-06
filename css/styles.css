@@ -196,7 +196,7 @@ img {
 
 .mobile-menu-icons-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 40px;
 }
 
@@ -252,7 +252,7 @@ img {
 
 .hero-title {
   text-align: center;
-  max-width: 330px;
+  max-width: 319px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;

@@ -4,6 +4,7 @@
   }
 
   .hero {
+    padding-bottom: 108px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -21,6 +22,12 @@
         ),
         url(../images/hero-bg-tab-2x.jpg);
     }
+  }
+
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 60px;
   }
 
   .header-list {
@@ -124,6 +131,10 @@
     width: 356px;
   }
 
+  .about-title {
+    text-align: left;
+  }
+
   .team-list {
     flex-wrap: wrap;
     flex-direction: unset;
@@ -139,6 +150,23 @@
     column-gap: 24px;
     row-gap: 72px;
     padding-left: 85px;
+  }
+
+  .footer-logo-text {
+    display: unset;
+  }
+
+  .footer-logo {
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  .soc-media {
+    display: block;
+  }
+
+  .soc-title {
+    text-align: left;
   }
 
   .subscribe-wrap {
@@ -173,4 +201,4 @@
     row-gap: 72px;
     justify-content: flex-start;
   }
-
+}

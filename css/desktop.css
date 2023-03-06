@@ -43,6 +43,8 @@
   }
 
   .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -78,6 +80,7 @@
   .about-title {
     font-size: 20px;
     line-height: 1.2;
+    text-align: left;
   }
 
   .products {

@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 428px;
+    max-width: 458px;
   }
 
   .mobile-menu-container {
@@ -12,7 +12,8 @@
   }
 
   .mobile-menu-icons-list {
-    gap: 54px;
+    justify-content: flex-start;
+    gap: 56px;
   }
 
   .footer-email {
